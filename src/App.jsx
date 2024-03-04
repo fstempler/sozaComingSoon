@@ -1,4 +1,7 @@
 import Logo from '../public/LogoSoza.png';
+import './fonts/ClashGrotesk-Light.ttf';
+import './fonts/ClashGrotesk-Regular.ttf';
+import './fonts/ClashGrotesk-Bold.ttf';
 
 import './App.css';
 
@@ -10,7 +13,10 @@ function App() {
       <div className='mainContainer'>
         <div className='navbar'>
           <img src={Logo} alt="Soza Logo" id='logo' className='Logo'/>
-          <p>Innovate. Construct. Transform</p>
+          <p><span className='innovateText'>Innovate. </span> 
+            <span className='constructText'>Construct. </span>
+            <span className='transformText'>Transform.</span>
+          </p>
         </div>
         
         <section className='heroContainer'>
@@ -21,7 +27,7 @@ function App() {
           </div>        
             
           <div className='heroFooter'>
-            <h3 className='email'>sozaprojects.com.ar</h3>
+            <h3 className='email'><span className='emailAddress'>sozaprojects</span>.com.ar</h3>
           </div>
         </section>
       </div>

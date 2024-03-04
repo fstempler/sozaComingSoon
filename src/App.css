@@ -1,8 +1,36 @@
+@font-face{
+  font-family: 'ClashGrotesk-Light';
+  src: local('fonts'),
+  url('./fonts/ClashGrotesk-Light.ttf');
+  font-weight: light;
+}
+
+@font-face{
+  font-family: 'ClashGrotesk-Normal';
+  src: local('fonts'),
+  url('./fonts/ClashGrotesk-Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: 'ClashGrotesk-Bold';
+  src: local('fonts'),
+  url('./fonts/ClashGrotesk-Bold.ttf');
+  font-weight: bolder;
+}
+
+@font-face{
+  font-family: 'ClashGrotesk-ExtraLight';
+  src: local('fonts'),
+  url('./fonts/ClashGrotesk-Extralight.ttf');
+  font-weight: bolder;
+}
 .mainContainer{
   height: 100vh;
   width: 100vw;
   padding-left: 100px;
   overflow-x: auto;  
+  font-family: 'ClashGrotesk-Light, ClashGrotesk-Normal, ClashGrotesk-Bold';
 }
 .navbar{
   display: flex;
@@ -14,8 +42,19 @@
 .Logo{
   width: 15%;
   height: auto;
-  margin: 0;
-  padding: 0;
+  margin-left: -35px;
+}
+
+.innovateText{
+  font-family: 'ClashGrotesk-Bold';
+}
+.constructText{
+  font-family: 'ClashGrotesk-Normal';
+  margin-left: 5px;
+}
+.transformText{
+  font-family: 'ClashGrotesk-Light';
+  margin-left: 5px;
 }
 
 .heroContainer{
@@ -37,6 +76,8 @@
 .heroTitle{
   color: #fff;  
   font-size: 4rem;  
+  font-weight: 200;
+  font-family: 'ClashGrotesk-Normal';
 }
 
 .heroFooter{
@@ -54,4 +95,56 @@
 .email{
   color: #fff;
   padding-right: 100px;
+  font-family: 'ClashGrotesk-ExtraLight';
+  font-size: 1.5rem;
+}
+.emailAddress{
+  font-family: 'ClashGrotesk-Normal';
+}
+
+@media only screen and (max-width: 576px) {
+  .mainContainer{   
+    padding-left: 50px;   
+  }
+  .navbar{    
+    padding-right: 30px;
+  }
+  .Logo{
+    width: 40%;
+    margin-left: -30px;
+  }
+  .heroContainer{    
+    height: 100%;
+  }
+
+  .heroTitle{
+    color: #fff;  
+    font-size: 2.5rem;  
+    font-weight: 200;
+    font-family: 'ClashGrotesk-Normal';
+  }
+  .email{    
+    padding-right: 30px;    
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .mainContainer{   
+    padding-left: 50px;   
+  }
+  .navbar{    
+    padding-right: 30px;
+  }
+  .Logo{
+    width: 25%;
+    margin-left: -30px;
+  }
+  .heroContainer{    
+    height: 85%;
+  }
+  
+  .email{    
+    padding-right: 30px;    
+    font-size: 1rem;
+  }
 }
