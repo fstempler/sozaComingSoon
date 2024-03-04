@@ -27,7 +27,7 @@ function App() {
           </div>        
             
           <div className='heroFooter'>
-            <h3 className='email'><span className='emailAddress'>sozaprojects</span>.com.ar</h3>
+            <h3 className='email'><span className='emailAddress'>sozaprojects</span>.com.au</h3>
           </div>
         </section>
       </div>
