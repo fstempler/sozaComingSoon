@@ -6,6 +6,12 @@
 }
 
 @font-face{
+  font-family: 'ClashGrotesk-Medium';
+  src: local('fonts'),
+  url('./fonts/ClashGrotesk-Medium.ttf'); 
+}
+
+@font-face{
   font-family: 'ClashGrotesk-Normal';
   src: local('fonts'),
   url('./fonts/ClashGrotesk-Regular.ttf');
@@ -37,8 +43,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-right: 100px;
+  padding-right: 100px;  
 }
+
+.navbar p{
+font-size: 1.5rem;
+}
+
 .Logo{
   width: 15%;
   height: auto;
@@ -46,14 +57,15 @@
 }
 
 .innovateText{
-  font-family: 'ClashGrotesk-Bold';
+  font-family: 'ClashGrotesk-Medium';
+
 }
 .constructText{
   font-family: 'ClashGrotesk-Normal';
   margin-left: 5px;
 }
 .transformText{
-  font-family: 'ClashGrotesk-Light';
+  font-family: 'ClashGrotesk-ExtraLight';
   margin-left: 5px;
 }
 
@@ -95,11 +107,11 @@
 .email{
   color: #fff;
   padding-right: 100px;
-  font-family: 'ClashGrotesk-ExtraLight';
+  font-family: 'ClashGrotesk-Light';
   font-size: 1.5rem;
 }
 .emailAddress{
-  font-family: 'ClashGrotesk-Normal';
+  font-family: 'ClashGrotesk-Medium';
 }
 
 @media only screen and (max-width: 576px) {
