@@ -109,6 +109,7 @@ font-size: 1.5rem;
   padding-right: 100px;
   font-family: 'ClashGrotesk-Light';
   font-size: 1.5rem;
+  letter-spacing: 1px;
 }
 .emailAddress{
   font-family: 'ClashGrotesk-Medium';
@@ -160,6 +161,6 @@ font-size: 1.5rem;
   
   .email{    
     padding-right: 30px;    
-    font-size: 1rem;
+    font-size: 1rem;    
   }
 }
