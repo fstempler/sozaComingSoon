@@ -116,6 +116,9 @@ font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 576px) {
+  section.heroContainer{    
+    height: 100%;   
+  }
   
   .navbar{    
     padding-right: 30px;
